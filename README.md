@@ -39,6 +39,6 @@ Implemented Commands:
 4. `Cache flag(args)` :
   - Check and update the contents of the Cache.
   - `$> Cache show`
-   - Output : filename , filesize ,lastmodified timestamp and the MD5hash of all the files in the Cache Folder.
+      - Output : filename , filesize ,lastmodified timestamp and the MD5hash of all the files in the Cache Folder.
   - `$> Cache verify <filename>`
-   - Verifies that the <filename> is already present in the cache. If not present, then the client downloads <filename> to the cache.
+      - Verifies that the <filename> is already present in the cache. If not present, then the client downloads <filename> to the cache.
