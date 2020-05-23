@@ -42,3 +42,16 @@ Implemented Commands:
       - Output : filename , filesize ,lastmodified timestamp and the MD5hash of all the files in the Cache Folder.
   - `$> Cache verify <filename>`
       - Verifies that the <filename> is already present in the cache. If not present, then the client downloads <filename> to the cache.
+
+
+## To run the code
+To run client use command `python client.py`, and to run server use command `python server.py`.
+
+### Inter-system communication
+Keep the `HOST='0.0.0.0'` in server.py unmodified.
+Make the `HOST='IP'` where IP='IP address of the host' inside the `client.py`.
+
+### Intra-system communication
+make `HOST='localhost'` in both `server.py` and `client.py`,
+
+Sample output results are shown in the `Sample_Output.pdf` file.
